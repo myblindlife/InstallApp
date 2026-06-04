@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+/* 🔝 NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e90ff;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* 🏠 HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #1e90ff, #6a11cb);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* 🔘 BUTTONS */
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* primary button */
+.primary {
+  background: #ffcc00;
+  color: black;
+}
+
+.primary:hover {
+  background: #ffdb4d;
+}
+
+/* secondary button */
+.secondary {
+  background: white;
+  color: #1e90ff;
+}
+
+/* outline button */
+.outline {
+  border: 1px solid white;
+  color: white;
+}
+
+/* big button */
+.big {
+  font-size: 16px;
+  padding: 14px 25px;
+}
+
+/* ⭐ SECTIONS */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 180px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* 📞 FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+  }
